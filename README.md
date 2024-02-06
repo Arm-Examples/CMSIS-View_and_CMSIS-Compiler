@@ -12,7 +12,7 @@ When system restarts the fault information is output via the **Event Recorder**.
 
 ## File_Demo
 
-This is a File System file manipulation example. You can format the drive and create, read, copy and delete files on it.
+This is a file manipulation example using the MDK-Middleware's File System component. You can format the drive and create, read, copy, and delete files on it.
 
 A detailed description is [available](https://www.keil.com/pack/doc/MW/FileSystem/html/fs_examples.html#fs_standalone_example).
 
@@ -25,6 +25,6 @@ This example prints "Hello World" and a counter value via the standard output wh
 
 This is a HTTP_Server example. It shows you how to use the Web Server CGI interface as well.
 
-Detailed description is [available](https://www.keil.com/pack/doc/MW/Network/html/_compact__web__server__example.html).
+A detailed description is [available](https://www.keil.com/pack/doc/MW/Network/html/_compact__web__server__example.html).
 
 Use this example to connect an evaluation board to a LAN with DHCP server (most LANs have this). The example will configure the network parameters automatically using a DHCP protocol.
