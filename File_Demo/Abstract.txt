@@ -1,0 +1,30 @@
+This is a File System file manipulation example.
+You can format the drive and create, read, copy and delete files on it.
+
+Detailed description is available on:
+www.keil.com/pack/doc/MW/FileSystem/html/fs_examples.html#fs_standalone_example
+
+The File_Demo program is a standalone application preconfigured for
+NXP EVKB-IMXRT1050 using CMSIS-DAP debugger and Virtual COM port
+as a communication interface. Virtual COM port is accessible on the same
+J28 connector as CMSIS-DAP debugger.
+
+Note: Terminal application should use "CR" or "LF" for newline setting (not "CR + LF")
+
+The program is available in different targets:
+ - Debug:
+   - Code:                      External HyperFlash NOR
+   - RW:                        Internal RAM
+   - Debugger:                  CMSIS-DAP
+   - Compiler:                  ARM Compiler optimization Level 1
+   - Event Recorder:            Enabled
+   - CMSIS:RTOS2:Keil RTX5:     Source
+   - File System:CORE:          LFN Debug
+ - Release:
+   - Code:                      External HyperFlash NOR
+   - RW:                        Internal RAM
+   - Debugger:                  CMSIS-DAP
+   - Compiler:                  ARM Compiler optimization Level 3
+   - Event Recorder:            Disabled
+   - CMSIS:RTOS2:Keil RTX5:     Library
+   - File System:CORE:          LFN

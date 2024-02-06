@@ -1,0 +1,9 @@
+build-idx:
+  generated-by: csolution version 2.2.1
+  csolution: hello.csolution.yml
+  cprojects:
+    - cproject: hello.cproject.yml
+  cbuilds:
+    - cbuild: hello.Debug+IMXRT1050-EVKB.cbuild.yml
+      project: hello
+      configuration: .Debug+IMXRT1050-EVKB
